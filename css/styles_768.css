@@ -1,0 +1,735 @@
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inika-v21-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inika-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inika-v21-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/* inter-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/inter-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* inter-200 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/inter-v12-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-300 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/inter-v12-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+@media  (max-width: 768px) and (min-width:381px){
+    html{
+       
+    }
+
+    body{
+        margin: 0 auto;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        color: #636060;
+        width: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+         
+    }
+
+    .header{
+        position: relative;
+    top:0;
+    width: 100%;
+    }
+
+    .wrapper{
+        background: #EDF2EC;
+        height: 117px;
+        width:100%;
+        width:768px;
+        margin: 0 auto;
+        
+    }
+
+    .wrap, .wrapp{
+        
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .header_wrapper{
+        padding-top: 45px;
+        display: flex;
+        padding-left: 50px;
+        align-items: flex-end;
+        justify-content: space-between;
+        
+    }
+
+    .menu{
+        display: flex;
+        flex-wrap: wrap;
+        /* width:600px */
+
+    }
+
+    .item_menu{
+        margin-right: 46px;
+        
+    }
+
+   
+    
+    
+    .link_menu, .name_logo{
+        text-decoration: none;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 50px;
+
+    color: #000000;
+    text-decoration: none;
+    }
+
+    .main{
+        margin: 0 auto;
+    }
+
+    
+    
+    .logo_img{
+        width: 20px;
+        margin-top: -10px;
+    }
+
+    /* MAIN */
+
+    .leaf_img{
+        padding-top: 62px;
+        width: 409px;
+        margin-left: 109px;
+    }
+
+    .leaf{
+        display: none;
+    }
+
+    .leaf_img_2{
+        width: 280px;
+        height: 254.15px;
+        padding-right: 50px;
+    }
+
+    .wrap_wel{
+        height: 380px;
+        background: #EDF2EC;
+        padding-top: 40px;
+        width: 768px;
+    }
+    
+    .content_wel{
+        padding: 0px 0px 0 50px ;
+        
+    }
+
+    .bold{
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .btn_more{
+        width: 158px;
+        height: 44px;
+        background: none;
+        border: 2px solid #E06733;
+        border-radius: 10px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+
+
+        color: #000000;
+    }
+
+    .btn_more:hover{
+        background: #E06733;
+        color: #FFFFFF;
+        transition: 0.3s; 
+    }
+
+    .welcome_t, .text_wel{
+        margin-bottom: 30px;
+        font-family: 'Inter';
+        font-style: normal;
+        
+    }
+
+    .bold{
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .text_wel{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+
+
+
+        color: #636060;
+    }
+
+    .plant_i{
+        width: 250px;
+       
+        position: relative;
+        margin: 0 auto;
+       
+       margin-left: 259px;
+    }
+
+    .plant_w{
+        position: relative;
+        align-items: center;
+         /* margin: 0 auto; */
+        display:block;
+        
+        margin-bottom: 95px;
+        
+    }
+
+    .orang_col{
+        color:#E06733;
+    }
+
+    .about_t{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'Inika';
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        text-align: center;
+
+        margin-bottom: 40px;
+        color: #499A18;
+        /* width: 400px; */
+    }
+
+    .text_about{
+        font-size: 20px;
+        margin-bottom: 40px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #636060;
+    }
+    .content_about{
+        width: 668px;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    .about_wrap{
+        display: block;
+    }
+
+    .green_col{
+        color: #499A18;
+    }
+
+    .service_wrap{
+        background: #EDF2EC;
+        width: 768px;
+    }
+
+    .service_t{
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 46px;
+        margin-left: 40px;
+        margin-top: 60px;
+        margin-left: 50px;
+        width: 306px;
+        margin-bottom: 40px;
+        padding-top: 60px;
+
+    }
+
+    .btn_service_item{
+        border: 1px solid #E06733;
+        border-radius: 5px;
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26px;
+        width: 161px;
+        height: 50px;
+        color: #E06733;
+        margin-right: 38px;
+        
+        
+    } 
+
+    .blur_item{
+        filter: blur(2px);
+    }
+
+    .btn_service_item--active{
+        background: #E06733;
+        color: #FFFFFF;
+    }
+    .inv_value{
+        display: none;
+    }
+        
+    
+
+    .btn_service{
+        display: flex;
+        margin-left: 50px;
+        margin-bottom: 40px;
+
+    }
+
+   
+
+    .items_service{
+        display: flex;
+        margin-left: 50px;
+        display: grid;
+    
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr) ;
+        grid-row-gap:55px;
+        padding-bottom: 70px;
+        
+    }
+
+    .item_service{
+        border: 1px solid #E3E1D5;
+        border-radius: 20px 20px 20px 20px;
+        width: 280px;
+        /* height: 100px; */
+        flex-wrap: wrap;
+        text-align: center;
+        /* margin-right: 106px; */
+    }
+
+    .img_serv{
+        width: 280px;
+        margin-bottom: 10px;
+    }
+
+    .sub_title{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .description_serv{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 18px;
+
+        text-align: center;
+    }
+
+    .title_price{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 42px;
+text-align: center;
+
+color: #000000;
+margin-left: 50px;
+margin-bottom: 50px;
+text-align: left;
+padding-top: 40px;
+    }
+
+    .items_price{
+        width: 332px;
+        height: 282px;
+
+        border: 1px solid #E3E1D5;
+        border-radius: 20px;
+        margin-left: 40px;
+        /* padding-left: 41px; */
+    }
+
+    .btn_price{
+        width: 250px;
+        height: 50px;
+        text-align: left;
+        background: #EDF2EC;
+        border-radius: 20px;
+        border: 0;
+        margin:34px 0 0 41px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: #000000;
+        padding-left: 15px;
+    }
+    
+    .btn_price--active{
+        background: #D6E7D2;
+        border-radius: 20px 20px 0 0;
+        
+    }
+    
+    .asd_wr{
+        width:768px;
+    }
+    .arrow_acc{
+        float: right;
+        margin-right: 15px;
+    }
+
+    .price_basic--active, .price_standart--active, .price_pro--active{
+        position: absolute;
+        width: 210px;
+        padding: 0px 20px 0 20px;
+    /* margin-top: 12px; */
+    
+        height: 104px;
+        background: #D6E7D2;
+        border-radius: 0 0 20px 20px;
+        margin-left: 41px;
+        display: none;
+
+    }
+
+    .price_basic--active--visible, .price_standart--active--visible, .price_pro--active--visible{
+        display: block;
+    }
+
+    {
+        position: absolute;
+        width: 170px;
+        padding: 0px 20px 0 20px;
+    /* margin-top: 12px; */
+    
+        height: 104px;
+        background: #D6E7D2;
+        border-radius: 0 0 20px 20px;
+        margin-left: 41px;
+        display: none;
+    }
+
+    .basics-text{
+        color: #717171;
+        /* margin-bottom: 3px; */
+        border-top: 0.5px solid #AEA1A1;
+        padding-top: 3px;
+    }
+
+    .basics-order{
+        width: 86px;
+        height: 25px;
+        border: 0;
+        background: #FFFFFF;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 13px;
+    }
+
+    .basics-price{
+        width:100px;
+    }
+
+    .leaf_price{
+        width: 152px;
+        float: right;
+        padding-bottom: 89px;
+        margin-left: 184px;
+    }
+
+    .price_contact{
+       align-items: right;
+       margin-right: 50px;
+    }
+
+    .price_text{
+        text-align: right;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 35px;
+
+
+        text-align: right;
+
+        color: #000000;
+        margin-bottom: 22px;
+        margin-top: 139px;
+    }
+
+    .to_contacts{
+        float: right;
+        width: 162px;
+        height: 50px;
+        background: none;
+        margin-bottom: 34px;
+        border: 1px solid #E06733;
+        border-radius: 5px;
+    }
+
+    .basics-price{
+        font-size: 15px;
+    }
+
+    .img_contacts_2{
+        width: 200px;
+        margin-left: 150px;
+        margin-top: 250px;
+    }
+
+    .img_contacts{
+        display: none;
+    }
+
+    .contacts{
+        width: 768px;
+        background: #EDF2EC;
+        /* padding-left: 50px; */
+        /* align-items: center;
+        align-content: center; */
+        /* margin: 0 auto; */
+        margin-bottom: 33px;
+    }
+
+    .contacts_title{
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+        padding-top: 40px;
+        margin-bottom: 100px;
+        
+
+    }
+    .title_contact_warp{
+        display: none;
+    }
+
+    .contacts_title{
+        margin-bottom: 100px;
+        text-align: center;
+    }
+
+    .city_contacts_btn{
+        height: 50px;
+        width: 450px;
+        border: 0;
+        background: #D6E7D2;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+        text-align: left;
+        
+        
+       
+    }
+
+    .info_contact, .dropdown_cities,.dropdown_input_hidd{
+        display: none;
+    }
+
+    .dropdown{
+        position: relative;
+        
+       
+    }
+    
+
+    .dropdown_cities{
+        width: 450px;
+        max-height: 0px;
+        background: #DCE9D9;
+        /* text-align: left; */
+        padding-top: 0;
+        position: absolute;
+         z-index: 1;
+        padding-top: 0px;
+        overflow: hidden;
+        -webkit-transition: max-height .5s, padding .5s;
+        transition: max-height .5s, padding .5s; 
+    }
+
+    .dropdown_item{
+        margin:0px 50px 15px 12px;
+        padding-left: 5px;
+        color:#499A18;
+        border-bottom: 1px solid #D9D9D9;
+        font-size: 16px;
+
+    }
+
+    .dropdown_cities--visible{
+        display: block;
+        max-height: 284px;
+        padding-top: 27px;
+    }
+
+
+    
+.info_contact{
+    margin-top: 47px;
+    position: absolute;
+    width: 448px;
+    
+    background: #EDF2EC;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    display: none;
+   
+    
+    
+   
+}
+
+.info_contact--visible{
+    display: block;      
+}
+
+.info_wrap{
+    display: flex;
+    text-align: left;
+    margin-bottom: 24px;
+    transition: opacity 1s ease;
+    opacity: 1;
+    
+}
+
+.name_item{
+    margin-left: 35px;
+    margin-top: 17px;
+    color: #000000;
+    font-size:16px;
+}
+
+.value_item{
+    margin-top: 17px;
+    font-size:16px;
+    color: #717171;
+    margin-left: 15px;
+
+}
+.items_contact_wrap{
+    margin-left: 160px;
+    
+}
+
+.call-us{
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background: none;
+    width: 122px;
+    height: 26px;
+    font-size: 10px;
+    margin-bottom: 32px;
+    color: #717171;
+    margin-left: 162px
+}
+
+.call-us:hover{
+    background: #E06733;
+    color:white;   
+    transition: 0.5s; 
+}
+
+/* FOOTER */
+
+
+
+
+    .items_footer{
+        position: relative;
+        margin: 0 auto;
+        align-items: center;
+        text-align: centerw;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+
+        color: #000000;
+        text-align: center;
+        
+    }
+
+    .years{
+        margin-bottom: 16px;
+
+        display: flex;
+        justify-content: space-between;
+        width:170px;
+        margin-left: 297px;
+        
+    }
+
+    .name_school{
+        margin-bottom: 16px;
+    }
+
+    .social{
+        margin-bottom: 18px;
+    }
+}
